@@ -1,22 +1,10 @@
 html {
-  background: url(https://media.discordapp.net/attachments/701514992767205459/719443695635660810/rust-rust-game-rust-art.jpg?width=1009&height=644)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-html::after {
-  background-color: #000000;
-  content: "";
   display: flex;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 200%;
-  height: 400%;
-  z-index: -1;
-  opacity: 0.6;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(https://media.discordapp.net/attachments/701514992767205459/719802072010194964/1465689355-2318586732.jpg?width=1125&height=633)
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,6 +12,10 @@ html::after {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 h1 {
@@ -43,46 +35,7 @@ h3 {
   text-shadow: 0px 0px 3px #000000;
 }
 
-.App-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-family: "Baloo Paaji 2", cursive;
-}
-.twoButtons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-}
-.Header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 20px;
-  border: 1px solid whitesmoke;
-  margin: none;
-  margin: 20px;
-  background-color: #272525c5;
-}
-Header img {
-  width: 500px;
-  height: auto;
-  border: 2px solid #dd2c00;
-  border-radius: 20px;
-  margin: none;
-}
-button {
+/* button {
   outline: none;
   width: 130px;
   height: 42px;
@@ -109,9 +62,12 @@ button:hover {
   font-size: larger;
   background-color: #2a2626;
   font-family: "Baloo Paaji 2", cursive;
-}
+} */
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .homepage {
   display: flex;
@@ -125,6 +81,12 @@ body {
   padding: 56px;
   border: 1px solid #dd2c00;
   border-radius: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .homepage ul {
   border: 1px solid whitesmoke;
@@ -154,6 +116,10 @@ body {
   border-radius: 10px;
   padding: 9px;
   margin-bottom: 32px;
+}
+.theMap {
+  width: auto;
+  height: auto;
 }
 .rules {
   display: flex;
@@ -187,3 +153,21 @@ body {
   height: 10px;
   width: 10px;
 } */
+@media only screen and (min-width: 550px) {
+  .theMap {
+    width: 360px;
+    height: 220px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .theMap {
+    width: 550px;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .theMap {
+    width: 660px;
+    height: 400px;
+  }
+}

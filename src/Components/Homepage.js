@@ -29,7 +29,7 @@ export default class Homepage extends React.Component {
         <section className="map">
           <h1>The Map</h1>
           <div className="video">
-            <iframe title="theMap" width="700" height="515" src="https://www.youtube.com/embed/3tBQ4DcqXUA"
+            <iframe className="theMap" title="theMap" src="https://www.youtube.com/embed/3tBQ4DcqXUA"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
