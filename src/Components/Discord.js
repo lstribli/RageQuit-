@@ -8,12 +8,10 @@ export default class Discord extends React.Component {
         <h1>Join our Discord</h1>
         <section className="description">
           <h3>Open up your Discord App with this link:</h3>
-          <div className="talk">
-            <a
-              href="https://discord.gg/x9dKyZr" target="blank"
-            >
-            </a>
-          </div>
+          <a href="https://discord.gg/x9dKyZr" target="blank">
+            <div className="talk">
+            </div>
+          </a>
         </section>
       </div>
     )
