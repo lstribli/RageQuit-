@@ -7,6 +7,8 @@ import Homepage from './Components/Homepage'
 import Rules from './Components/Rules'
 import Discordpage from './Components/Discord'
 import Baseappreciation from './Components/BaseAppreciation'
+import Footer from './Components/Footer';
+import ModsPage from './Components/ModsPage';
 
 class App extends Component {
   state = { hasError: false }
@@ -33,20 +35,28 @@ class App extends Component {
             />
             <Route
               exact
-              path={'/rules'}
+              path={'/Rules'}
               component={Rules}
             />
             <Route
               exact
-              path={'/discord'}
+              path={'/Discord'}
               component={Discordpage}
             />
             <Route
               exact
-              path={'/baseAppreciation'}
+              path={'/Base-Appreciation'}
               component={Baseappreciation}
             />
+            <Route
+              exact
+              path={'/ModsPage'}
+              component={ModsPage}
+            />
           </Switch>
+          <footer>
+            <Footer />
+          </footer>
 
         </main>
       </div>

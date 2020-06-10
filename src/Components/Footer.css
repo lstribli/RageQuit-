@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 1.15rem;
+  line-height: 1.55rem;
+  background-color: #2a2626;
+  border: 3px solid #dd2c00;
+  border-radius: 20px;
+  height: 100px;
+  width: auto;
+  margin: 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.author p {
+  font-size: small;
+  margin: 30px;
+}
+.authorIcon {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  margin-left: none;
+  border-radius: 50%;
+  background-size: 60px 60px;
+  background: url("https://media.discordapp.net/attachments/701514992767205459/719990948347641976/EM8R5.jpg?width=951&height=644")
+    no-repeat center center;
+}
+.authorIcon:hover {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #01fa0dc5;
+  background-size: 60px 60px;
+  background: url("https://media.discordapp.net/attachments/701514992767205459/719990948347641976/EM8R5.jpg?width=951&height=644")
+    no-repeat center center;
+}
+@media only screen and (min-width: 550px) {
+}
+@media only screen and (min-width: 650px) {
+}
+@media only screen and (min-width: 850px) {
+}

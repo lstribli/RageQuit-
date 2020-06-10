@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, Router } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Header.css'
 export default class Header extends Component {
   render() {
@@ -8,13 +8,13 @@ export default class Header extends Component {
         <div className='twoButtons'>
           <Link
             to='/'>
-            <button>
+            <button className="homeb">
               Home
           </button>
           </Link>
           <Link
             to='/rules'>
-            <button>
+            <button className="rulesb">
               Rules
           </button>
           </Link>
@@ -23,13 +23,13 @@ export default class Header extends Component {
         <div className='twoButtons'>
           <Link
             to='/discord'>
-            <button>
+            <button className="discordb">
               Discord
           </button>
           </Link>
           <Link
-            to='/baseAppreciation'>
-            <button>
+            to='/base-Appreciation'>
+            <button className="baseb">
               Base Appreciation
           </button>
           </Link>

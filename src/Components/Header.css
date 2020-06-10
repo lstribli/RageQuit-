@@ -37,19 +37,64 @@ Header img {
   border-radius: 20px;
   margin: none;
 }
-button {
+.homeb {
   outline: none;
   width: 120px;
-  height: 42px;
+  height: 47px;
   border-radius: 20px;
-  border: 1px solid #3a0101;
-  margin: 10px;
+  border: 2px solid #3a0101;
+  margin: 20px;
   padding: none;
   color: #2a2626;
   font-size: 16px;
   font-weight: bolder;
   line-height: 01rem;
-  background-color: #dd2c00;
+  background-color: #dd8800;
+  font-family: "Baloo Paaji 2", cursive;
+}
+.discordb {
+  outline: none;
+  width: 120px;
+  height: 47px;
+  border-radius: 20px;
+  border: 2px solid #3a0101;
+  margin: 20px;
+  padding: none;
+  color: #2a2626;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 01rem;
+  background-color: #8b0627;
+  font-family: "Baloo Paaji 2", cursive;
+}
+.rulesb {
+  outline: none;
+  width: 120px;
+  height: 47px;
+  border-radius: 20px;
+  border: 2px solid #3a0101;
+  margin: 20px;
+  padding: none;
+  color: #2a2626;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 01rem;
+  background-color: #dd1a00;
+  font-family: "Baloo Paaji 2", cursive;
+}
+.baseb {
+  outline: none;
+  width: 120px;
+  height: 47px;
+  border-radius: 20px;
+  border: 2px solid #3a0101;
+  margin: 20px;
+  padding: none;
+  color: #2a2626;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 01rem;
+  background-color: #ddce00;
   font-family: "Baloo Paaji 2", cursive;
 }
 button:hover {
@@ -80,19 +125,64 @@ button:hover {
     justify-content: center;
     padding: 24px;
   }
-  button {
+  .homeb {
     outline: none;
-    width: 130px;
-    height: 55px;
+    width: 120px;
+    height: 47px;
     border-radius: 20px;
-    border: 1px solid #3a0101;
+    border: 2px solid #3a0101;
     margin: 20px;
     padding: none;
     color: #2a2626;
     font-size: 16px;
     font-weight: bolder;
     line-height: 01rem;
-    background-color: #dd2c00;
+    background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .discordb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #8b0627;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .rulesb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #dd1a00;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .baseb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #ddce00;
     font-family: "Baloo Paaji 2", cursive;
   }
   button:hover {
@@ -138,19 +228,64 @@ button:hover {
     justify-content: center;
     padding: 12px;
   }
-  button {
+  .homeb {
     outline: none;
-    width: 110px;
-    height: 55px;
+    width: 120px;
+    height: 47px;
     border-radius: 20px;
-    border: 1px solid #3a0101;
-    margin: 5px;
+    border: 2px solid #3a0101;
+    margin: 20px;
     padding: none;
     color: #2a2626;
     font-size: 16px;
     font-weight: bolder;
     line-height: 01rem;
-    background-color: #dd2c00;
+    background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .discordb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #8b0627;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .rulesb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #dd1a00;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .baseb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #ddce00;
     font-family: "Baloo Paaji 2", cursive;
   }
   button:hover {
@@ -195,19 +330,64 @@ button:hover {
     justify-content: center;
     padding: 24px;
   }
-  button {
+  .homeb {
     outline: none;
     width: 180px;
     height: 55px;
     border-radius: 20px;
-    border: 1px solid #3a0101;
+    border: 2px solid #3a0101;
     margin: 20px;
     padding: none;
     color: #2a2626;
     font-size: 16px;
     font-weight: bolder;
     line-height: 01rem;
-    background-color: #dd2c00;
+    background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .discordb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #8b0627;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .rulesb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #dd1a00;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .baseb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #ddce00;
     font-family: "Baloo Paaji 2", cursive;
   }
   button:hover {
@@ -265,6 +445,79 @@ button:hover {
     font-weight: bolder;
     line-height: 01rem;
     background-color: #dd2c00;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  button:hover {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 3px solid #dd2c00;
+    margin: 20px;
+    padding: none;
+    color: whitesmoke;
+    font-size: larger;
+    background-color: #2a2626;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .homeb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .discordb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #8b0627;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .rulesb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #dd1a00;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .baseb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #ddce00;
     font-family: "Baloo Paaji 2", cursive;
   }
   button:hover {
