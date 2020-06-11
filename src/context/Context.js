@@ -24,7 +24,7 @@ const Context = React.createContext({
       description: "Doors can be configured and  automatically close after 5 seconds if command is enabled.",
       screenshot: "https://assets.umod.org/images/icons/plugin/5c4d3c4f674bb.png",
       hyperlink: "https://umod.org/plugins/auto-doors",
-      command: "No command needed, it's automatic"
+      command: "Type /autodoor to enable or diable the autodoor feature."
     },
     {
       id: 4,
@@ -64,7 +64,7 @@ const Context = React.createContext({
       description: "Full dynamic sharing system for Cups|Doors|Boxes|Turrets for Clans",
       screenshot: "https://www.chaoscode.io/data/resource_icons/0/20.jpg",
       hyperlink: "https://www.chaoscode.io/resources/dynamiccupshare.20/",
-      command: "type /share to configure your share settings! Clan will have auto authorization."
+      command: "/share to configure your share settings! Clan will have auto authorization and be able to automatically open any of your codelocks and your turrets and TC. Be Careful who you tRust to be in your clan..."
     },
     {
       id: 9,
@@ -104,7 +104,7 @@ const Context = React.createContext({
       description: "Allows titles to be set when certain criteria are met, with a UI Leader board.",
       screenshot: "https://assets.umod.org/images/icons/plugin/5b63be6b063f3.jpg",
       hyperlink: "https://umod.org/plugins/player-challenges",
-      command: "No command needed, it's automatic"
+      command: "type /pc to open up the leaderboard and see where you fall amongst other Ragers! Awards titles on highscore and resets monthly."
     },
     {
       id: 14,
@@ -112,7 +112,7 @@ const Context = React.createContext({
       description: "PlayerSkins allows players to get tons of crazy workshop skins for items. They can then apply those skins to their items using the 'Reskin' menu. Paid Plugin!",
       screenshot: "https://secure.gravatar.com/avatar/8b5a0a4bea3cfe13a10670b0e1a7717a?s=300&d=retro",
       hyperlink: "https://www.chaoscode.io/resources/playerskins.33/",
-      command: "No command needed, it's automatic"
+      command: "type /skin shop to open up the awesome skin shop GUI. Bask in its greatness as you pick skins for any and every item a skin is available for. You are evrn free to reskin any item  whenever you want. Simply old the item and type /skin to apply!"
     },
     {
       id: 15,
@@ -120,7 +120,7 @@ const Context = React.createContext({
       description: "Load custom images to signs from a remote URL. Imgur works best and is free!",
       screenshot: "https://assets.umod.org/images/icons/plugin/5b6774e6e22df.jpg",
       hyperlink: "https://umod.org/plugins/sign-artist",
-      command: "No command needed, it's automatic"
+      command: "type /sil URL where URL should be the link to an image. The free image hosting site Imgur works great. Just be sure to right click the image and open it in its own tab before you copy its URL"
     },
     {
       id: 16,
@@ -128,7 +128,7 @@ const Context = React.createContext({
       description: "Spot enemies while holding a gun and pressing E, will mark their location to you and your team mates!",
       screenshot: "https://www.chaoscode.io/data/resource_icons/0/141.jpg",
       hyperlink: "https://www.chaoscode.io/resources/spot-system.141/",
-      command: "No command needed, it's automatic"
+      command: "Hold any weapon that can aim and aim at an enemy player or NPC and mark them from long distance. A red GUI X will appear on the players location at that time and will show it to your teammates as well. Very useful for coordination and tactics."
     },
     {
       id: 17,
@@ -136,7 +136,7 @@ const Context = React.createContext({
       description: "Allows players to trade items safely at a distance",
       screenshot: "https://assets.umod.org/images/icons/plugin/5c2ea1c3b10c2.png",
       hyperlink: "https://umod.org/plugins/trade",
-      command: "No command needed, it's automatic"
+      command: "type /trade playername to initiate a trade with that player. Make sure both players stay still and dont move while doing a trade or it will be canceled!"
     },
     {
       id: 18,

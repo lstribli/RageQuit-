@@ -18,6 +18,12 @@ export default class Header extends Component {
               Rules
           </button>
           </Link>
+          <Link
+            to='/ModsPage'>
+            <button className="modsb">
+              Mods
+          </button>
+          </Link>
         </div>
         <img src='https://cdn.discordapp.com/attachments/701514992767205459/719363535313829909/simplerage.png' alt='artwork for RageQuit' />
         <div className='twoButtons'>

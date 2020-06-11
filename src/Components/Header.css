@@ -52,6 +52,21 @@ Header img {
   background-color: #dd8800;
   font-family: "Baloo Paaji 2", cursive;
 }
+.modsb {
+  outline: none;
+  width: 120px;
+  height: 47px;
+  border-radius: 20px;
+  border: 2px solid #3a0101;
+  margin: 20px;
+  padding: none;
+  color: #2a2626;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 01rem;
+  background-color: #bb0746;
+  font-family: "Baloo Paaji 2", cursive;
+}
 .discordb {
   outline: none;
   width: 120px;
@@ -138,6 +153,21 @@ button:hover {
     font-weight: bolder;
     line-height: 01rem;
     background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .modsb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #bb074c;
     font-family: "Baloo Paaji 2", cursive;
   }
   .discordb {
@@ -243,6 +273,21 @@ button:hover {
     background-color: #dd8800;
     font-family: "Baloo Paaji 2", cursive;
   }
+  .modsb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #bb074c;
+    font-family: "Baloo Paaji 2", cursive;
+  }
   .discordb {
     outline: none;
     width: 120px;
@@ -343,6 +388,21 @@ button:hover {
     font-weight: bolder;
     line-height: 01rem;
     background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .modsb {
+    outline: none;
+    width: 120px;
+    height: 47px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #bb074c;
     font-family: "Baloo Paaji 2", cursive;
   }
   .discordb {
@@ -473,6 +533,21 @@ button:hover {
     font-weight: bolder;
     line-height: 01rem;
     background-color: #dd8800;
+    font-family: "Baloo Paaji 2", cursive;
+  }
+  .modsb {
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid #3a0101;
+    margin: 20px;
+    padding: none;
+    color: #2a2626;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 01rem;
+    background-color: #bb074c;
     font-family: "Baloo Paaji 2", cursive;
   }
   .discordb {

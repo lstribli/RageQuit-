@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 export default class Homepage extends React.Component {
   render() {
@@ -34,14 +33,8 @@ export default class Homepage extends React.Component {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           </div>
-          <h1>The Mods</h1>
-          <h3>RageQuit! 2x+ has a considerable repository of Mods that make it what it is</h3>
-          <Link
-            to='/ModsPage'>
-            <button className="homeb">
-              Mods
-          </button>
-          </Link>
+
+
         </section>
 
       </div >
