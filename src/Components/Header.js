@@ -39,6 +39,12 @@ export default class Header extends Component {
               Base Appreciation
           </button>
           </Link>
+          <Link
+            to='/direct-connect'>
+            <button className="connectb">
+              Direct Connect
+          </button>
+          </Link>
         </div>
       </div>
     )

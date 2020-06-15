@@ -9,6 +9,7 @@ import Discordpage from './Components/Discord'
 import Baseappreciation from './Components/BaseAppreciation'
 import Footer from './Components/Footer';
 import ModsPage from './Components/ModsPage';
+import DirectConnect from './Components/Direct-connect';
 
 class App extends Component {
   state = { hasError: false }
@@ -52,6 +53,11 @@ class App extends Component {
               exact
               path={'/ModsPage'}
               component={ModsPage}
+            />
+            <Route
+              exact
+              path={'/direct-connect'}
+              component={DirectConnect}
             />
           </Switch>
           <footer>
